@@ -1,0 +1,50 @@
+{
+    "header": "[Sprint 3]",
+    "items": [
+        {
+            "title": "[#10 Visualização de Estoque]",
+            "desc": "Banco de Dados {Tabela Secretaria} NxN {Tabela Material (Assets)}. Colunas da tabela: entity_id, asset_id, quantity.",
+            "time": "2h"
+        },
+        {
+            "title": "[#10 Visualização de Estoque]",
+            "desc": "Interfaces de Usuário para visualização",
+            "time": "3h"
+        },
+        {
+            "title": "[#11 Controle de Entrada no Estoque]",
+            "desc": "Regras de Negócio entre [#8 RMSs] e [#10 Visualização de Estoque]",
+            "time": "4h"
+        },
+        {
+            "title": "[#11 Controle de Entrada no Estoque]",
+            "desc": "Interfaces de Usuário de Controle",
+            "time": "5h"
+        },
+        {
+            "title": "[#12 Controle de Saída do Estoque]",
+            "desc": "Banco de Dados {Tabela ALMs} Nx1 {Tabela Secretaria}. Colunas da tabela: id, project_id, observations, entity_id, recepter, released_at, released_by, status.",
+            "time": "3h"
+        },
+        {
+            "title": "[#12 Controle de Saída do Estoque]",
+            "desc": "Banco de Dados {Tabela Materiais (Assets)} NxN {Tabela ALMs} -> pivot, colunas da tabela: alm_id, asset_id, quantity_requested, quantity_released.",
+            "time": "4h"
+        },
+        {
+            "title": "[#12 Controle de Saída do Estoque]",
+            "desc": "Regras de Negócio entre Banco de Dados {Tabela ALMs} e [#10 Visualização de Estoque]",
+            "time": "5h"
+        },
+        {
+            "title": "[#12 Controle de Saída do Estoque]",
+            "desc": "Interfaces de Usuário de Controle",
+            "time": "4h" 
+        },
+        {
+            "title": "[#12 Controle de Saída do Estoque]",
+            "desc": "Deploy em produção",
+            "time": "2h"
+        }
+    ]
+}

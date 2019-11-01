@@ -1,0 +1,30 @@
+{
+    "header": "[Sprint 4]",
+    "items": [
+        {
+            "title": "[#13 Usuários]",
+            "desc": "Interfaces de Usuário de visualização",
+            "time": "3h" 
+        },
+        {
+            "title": "[#13 Usuários]",
+            "desc": "Formulários",
+            "time": "2h" 
+        },
+        {
+            "title": "[#14 Controle de Acesso]",
+            "desc": "Interfaces de Usuário de controle para envio de convite para cadastro",
+            "time": "4h" 
+        },
+        {
+            "title": "[#14 Controle de Acesso]",
+            "desc": "Interfaces de Usuário de controle para alteração de permissões de usuários",
+            "time": "4h" 
+        },
+        {
+            "title": "[#14 Controle de Acesso]",
+            "desc": "Deploy em produção",
+            "time": "2h"
+        }
+    ]
+}

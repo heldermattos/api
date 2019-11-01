@@ -1,0 +1,120 @@
+{
+    "header": "[Sprint 2]",
+    "items": [
+        {
+            "title": "[#4 Fornecedores]",
+            "desc": "Banco de Dados {Tabela Secretarias} - a relacionar com outros Bancos de Dados",
+            "time": "2h"
+        },
+        {
+            "title": "[#4 Fornecedores]",
+            "desc": "Banco de Dados {Tabela Fornecedores} colunas da tabela: id, name, cnpj, created_at, updated_at",
+            "time": "2h"
+        },
+        {
+            "title": "[#4 Fornecedores]",
+            "desc": "Regras de Negócio para {Tabela Fornecedores}",
+            "time": "2h"
+        },
+        {
+            "title": "[#4 Fornecedores]",
+            "desc": "Interfaces de Usuário",
+            "time": "2h"
+        },
+        {
+            "title": "[#4 Fornecedores]",
+            "desc": "Deploy em produção",
+            "time": "2h"
+        },
+        {
+            "title": "[#5 Materiais]",
+            "desc": "Banco de Dados {Tabela Materiais (Assets)}. Colunas da tabela: id, description, und",
+            "time": "2h"
+        },
+        {
+            "title": "[#5 Materiais]",
+            "desc": "Regras de Negócio para {Tabela Materiais (Assets)}",
+            "time": "2h"
+        },
+        {
+            "title": "[#5 Materiais]",
+            "desc": "Interfaces de Usuário",
+            "time": "2h"
+        },
+        {
+            "title": "[#5 Materiais]",
+            "desc": "Deploy em produção",
+            "time": "2h"
+        },
+        {
+            "title": "[#6 Tabela de Preços]",
+            "desc": "Banco de Dados {Tabela Fornecedores} NxN {Tabela Materiais} -> pivot",
+            "time": "2h"
+        },
+        {
+            "title": "[#6 Tabela de Preços]",
+            "desc": "Regras de Negócio {Tabela Fornecedores} NxN {Tabela Materiais} -> pivot",
+            "time": "2h"
+        },
+        {
+            "title": "[#6 Tabela de Preços]",
+            "desc": "Interfaces de Usuário",
+            "time": "3h"
+        },
+        {
+            "title": "[#6 Tabela de Preços]",
+            "desc": "Deploy em produção",
+            "time": "2h"
+        },
+        {
+            "title": "[#7 Obra/Projeto/Manutenção]",
+            "desc": "Banco de Dados {Tabela Projetos} NxN {Tabela Secretaria} -> pivot, Secretaria Beneficiada, colunas da tabela: id, entity_servant_id, entity_client_id, in_charge_id, descripition",
+            "time": "2h"
+        },
+        {
+            "title": "[#7 Obra/Projeto/Manutenção]",
+            "desc": "Formulários",
+            "time": "2h"
+        },
+        {
+            "title": "[#7 Obra/Projeto/Manutenção]",
+            "desc": "Interfaces de Usuário",
+            "time": "3h"
+        },
+        {
+            "title": "[#7 Obra/Projeto/Manutenção]",
+            "desc": "Deploy em produção",
+            "time": "2h"
+        },
+        {
+            "title": "[#8 RMSs]",
+            "desc": "Banco de Dados {Tabela RMSs} Nx1 {Tabela Secretaria} -> pivot. Colunas da tabela: id, nr, project_id, observations, entity_id, requested_at, requested_by, released_at, released_by, accepted_at, accepted_by, status",
+            "time": "3h"
+        },
+        {
+            "title": "[#8 RMSs]",
+            "desc": "Banco de Dados {Tabela} NxN pivot entre Materiais (Assets) e RMSs, colunas da tabela: rms_id, asset_id, quantity_requested, quantity_released, quantity_accepted",
+            "time": "2h"
+        },
+        {
+            "title": "[#8 RMSs]",
+            "desc": "Formulários",
+            "time": "2h"
+        },
+        {
+            "title": "[#8 RMSs]",
+            "desc": "Interfaces de Usuário para visualização",
+            "time": "3h"
+        },
+        {
+            "title": "[#9 Emissão de RMSs]",
+            "desc": "Interfaces de Usuário para impressão",
+            "time": "5h"
+        },
+        {
+            "title": "[#9 Emissão de RMSs]",
+            "desc": "Deploy em produção",
+            "time": "2h"
+        }
+    ]
+}
